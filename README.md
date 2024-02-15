@@ -1,4 +1,4 @@
-# SSI Wallet Prototype
+# SSI Wallet Test Project
 ##  Basis
 The starting point for this project was https://github.com/veramolabs/veramo-react-native-tutorial.git .
 

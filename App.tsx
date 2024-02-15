@@ -51,7 +51,7 @@ const App = () => {
     <SafeAreaView>
       <ScrollView>
         <View style={{ padding: 40, paddingTop: 60 }}>
-          <Text style={{ fontSize: 35, fontWeight: 'bold' }}>NEC Test Wallet</Text>
+          <Text style={{ fontSize: 35, fontWeight: 'bold' }}>SSI Test Wallet</Text>
 	  {/* ---------------------------------------------------------------------------------  */}
           <Text style={{ fontSize: 25, fontWeight: 'bold' }}>Identifiers</Text>
 	  {/* ---------------------------------------------------------------------------------  */}
@@ -83,7 +83,7 @@ const App = () => {
             )}
           </View>
 	  {/* ---------------------------------------------------------------------------------  */}
-	  <Text style={{ fontSize: 12, fontWeight: 'light', marginTop: '1em' }}>Version 1.1.3</Text>
+	  <Text style={{ fontSize: 12, fontWeight: 'light', marginTop: '1em' }}>Version 1.1.4</Text>
 	  {/* ---------------------------------------------------------------------------------  */}
         </View>
       </ScrollView>
