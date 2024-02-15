@@ -11,7 +11,7 @@
   "dependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@ethersproject/shims": "^5.7.0",
-    "@expo/webpack-config": "^18.0.1",
+    "@expo/webpack-config": "^19.0.0",
     "@sinonjs/text-encoding": "^0.7.2",
     "@veramo/core": "^5.1.2",
     "@veramo/data-store": "^5.1.2",
@@ -24,23 +24,23 @@
     "crypto-browserify": "^3.12.0",
     "ethr-did-resolver": "^8.0.0",
     "expo": "49",
-    "expo-sqlite": "^11.1.1",
-    "expo-status-bar": "^1.4.4",
+    "expo-sqlite": "~11.3.3",
+    "expo-status-bar": "~1.6.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-native": "0.71.14",
+    "react-native": "0.72.10",
     "react-native-get-random-values": "^1.8.0",
     "react-native-sqlite-storage": "^6.0.1",
-    "react-native-web": "~0.18.9",
+    "react-native-web": "~0.19.6",
     "stream-browserify": "^3.0.0",
     "web-did-resolver": "^2.0.21"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
-    "@types/react": "~18.0.14",
+    "@types/react": "~18.2.14",
     "@types/react-native": "~0.70.6",
     "babel-plugin-rewrite-require": "^1.14.5",
-    "typescript": "^4.6.3"
+    "typescript": "^5.1.3"
   },
   "private": true,
   "engines": {
