@@ -50,26 +50,41 @@ const App = () => {
   return (
     <SafeAreaView>
       <ScrollView>
-        <View style={{ padding: 20 }}>
-          <Text style={{ fontSize: 30, fontWeight: 'bold' }}>Identifiers</Text>
-          <Button onPress={() => createIdentifier()} title={'Create Identifier'} />
+        <View style={{ padding: 40, paddingTop: 60 }}>
+          <Text style={{ fontSize: 35, fontWeight: 'bold' }}>NEC Test Wallet</Text>
+	  {/* ---------------------------------------------------------------------------------  */}
+          <Text style={{ fontSize: 25, fontWeight: 'bold' }}>Identifiers</Text>
+	  {/* ---------------------------------------------------------------------------------  */}
+	  <View style={{ marginTop: 20 }} >
+		  <Button onPress={() => createIdentifier()} title={'Create Identifier'} />
+	  </View>
+	  {/* ---------------------------------------------------------------------------------  */}
           <View style={{ marginBottom: 50, marginTop: 20 }}>
             {identifiers && identifiers.length > 0 ? (
               identifiers.map((id: IIdentifier) => (
-                <Button onPress={() => resolveDID(id.did)} title={id.did} key={id.did} />
+                <Button 
+		      onPress={() => resolveDID(id.did)} 
+		      title={id.did} 
+		      key={id.did} 
+		      />
               ))
             ) : (
               <Text>No identifiers created yet</Text>
             )}
           </View>
-          <Text style={{ fontSize: 30, fontWeight: 'bold' }}>Resolved DID document:</Text>
+	  {/* ---------------------------------------------------------------------------------  */}
+          <Text style={{ fontSize: 25, fontWeight: 'bold' }}>Resolved DID document:</Text>
+	  {/* ---------------------------------------------------------------------------------  */}
           <View style={{ marginBottom: 50, marginTop: 20 }}>
             {resolutionResult ? (
-              <Text>{JSON.stringify(resolutionResult.didDocument, null, 2)}</Text>
+              <Text style={{ fontSize: 16}}>{JSON.stringify(resolutionResult.didDocument, null, 2)}</Text>
             ) : (
-              <Text>tap on a DID to resolve it</Text>
+              <Text style={{ fontSize: 16}}>tap on a DID to resolve it</Text>
             )}
           </View>
+	  {/* ---------------------------------------------------------------------------------  */}
+	  <Text style={{ fontSize: 12, fontWeight: 'light', marginTop: '1em' }}>Version 1.1.3</Text>
+	  {/* ---------------------------------------------------------------------------------  */}
         </View>
       </ScrollView>
     </SafeAreaView>
