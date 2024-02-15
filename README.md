@@ -1,3 +1,8 @@
+# SSI Wallet Prototype
+| ![app-screendump-0.png](app-screendump-0.png) | 
+|:--:| 
+| *Sample Screendump* |
+
 # Firewall access from mobile device
 
 I allowed access to all devices on the dev machine's subnet, which included my mobile when running from the local wi-fi, to port 19000 on the dev machine (the port used by Expo).
