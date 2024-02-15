@@ -7,7 +7,7 @@ Within app.json it was necessary to remove the eas.projectId value from the inti
 
 ## Screendump
  
-| ![app-screendump-0.png](app-screendump-0.png) | 
+| ![app-screendump-1.png](app-screendump-1.png) | 
 |:--:| 
 | *Sample Screendump* |
 
