@@ -9,7 +9,7 @@ Within app.json it was necessary to remove the eas.projectId value from the inti
  
 | ![app-screendump-1.png](app-screendump-1.png) | 
 |:--:| 
-| *Sample Screendump* |
+| *Sample Home Screen* |
 
 ## Firewall access from mobile device
 
