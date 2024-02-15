@@ -30,6 +30,7 @@
     "react-dom": "^18.2.0",
     "react-native": "0.71.14",
     "react-native-get-random-values": "^1.8.0",
+    "react-native-sqlite-storage": "^6.0.1",
     "react-native-web": "~0.18.9",
     "stream-browserify": "^3.0.0",
     "web-did-resolver": "^2.0.21"
