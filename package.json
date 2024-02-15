@@ -11,6 +11,7 @@
   "dependencies": {
     "@babel/plugin-syntax-import-assertions": "^7.20.0",
     "@ethersproject/shims": "^5.7.0",
+    "@expo/webpack-config": "^18.0.1",
     "@sinonjs/text-encoding": "^0.7.2",
     "@veramo/core": "^5.1.2",
     "@veramo/data-store": "^5.1.2",
@@ -27,7 +28,7 @@
     "expo-status-bar": "^1.4.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-native": "^0.71.8",
+    "react-native": "0.71.14",
     "react-native-get-random-values": "^1.8.0",
     "react-native-web": "~0.18.9",
     "stream-browserify": "^3.0.0",
